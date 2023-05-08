@@ -21,4 +21,4 @@ INCLUDES:
 
 ![image](Preview_elevator.gif)
 
-![image](sec_cam.gif)
+![image](Preview_sec_cam.gif)
