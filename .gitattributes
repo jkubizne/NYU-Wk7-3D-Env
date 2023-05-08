@@ -9,7 +9,7 @@
 # Unity Text Assets
 *.meta unityyaml
 *.unity unityyaml
-*.asset unityyaml
+*.asset lfs
 *.prefab unityyaml
 *.mat unityyaml
 *.anim unityyaml
