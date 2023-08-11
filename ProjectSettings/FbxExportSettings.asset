@@ -1,3 +1,42 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b861319a1850ade8cadf34a91a67f081111501c8a9c974061c92699121ea7cad
-size 1311
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "FBX Export Settings",
+        "m_EditorClassIdentifier": "",
+        "Verbose": false,
+        "launchAfterInstallation": true,
+        "HideSendToUnityMenu": true,
+        "BakeAnimation": false,
+        "showConvertToPrefabDialog": true,
+        "integrationSavePath": "C:\\Users\\jkubi\\Dropbox\\Projects (DB)\\AR_VR NYU\\Project Files\\Unity\\NYU-Wk7-3D-Env",
+        "selectedDCCApp": 0,
+        "prefabSavePaths": [
+            "."
+        ],
+        "fbxSavePaths": [
+            "."
+        ],
+        "selectedFbxPath": 0,
+        "selectedPrefabPath": 0,
+        "dccOptionNames": [],
+        "dccOptionPaths": [],
+        "exportModelSettingsSerialize": {
+            "exportFormat": 1,
+            "animatedSkinnedMesh": false,
+            "mayaCompatibleNaming": true,
+            "include": 2,
+            "lodLevel": 0,
+            "objectPosition": 0,
+            "exportUnrendered": true,
+            "preserveImportSettings": true,
+            "keepInstances": true,
+            "embedTextures": false
+        },
+        "convertToPrefabSettingsSerialize": {
+            "exportFormat": 1,
+            "animatedSkinnedMesh": false,
+            "mayaCompatibleNaming": true
+        }
+    }
+}
