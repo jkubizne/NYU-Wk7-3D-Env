@@ -8,10 +8,10 @@ public class ElevatorPanel : MonoBehaviour
 {
     private ElevatorSound _elevator;
 
-    private bool _elevatorCalled = false;
-    private bool _canCallElevator = false;
+    public bool _elevatorCalled = false;
+    public bool _canCallElevator = false;
 
-    [SerializeField] private MeshRenderer _callButton;
+    [SerializeField] public MeshRenderer _callButton;
 
     // Start is called before the first frame update
     void Start()
@@ -45,7 +45,7 @@ public class ElevatorPanel : MonoBehaviour
             _canCallElevator = false;
         }
     }
-    private void ElevatorControl()
+    public void ElevatorControl()
     {
         if (Input.GetKeyDown(KeyCode.E) && _canCallElevator)
         {
